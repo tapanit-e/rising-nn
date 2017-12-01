@@ -67,6 +67,8 @@ RisingNN.prototype.addData = function(dataset) {
 	this.getMaxValues();
 	
 	this.getMaxSimilarity();
+	
+	this.getMaxGaussianValue();
 
 };
 
